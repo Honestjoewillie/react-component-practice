@@ -1,3 +1,5 @@
+function DonutChart(props){
+    return (
 <div className="col-lg-4">
 <div className="panel panel-default">
     <div className="panel-heading">
@@ -11,3 +13,5 @@
     </div>
 </div>
 </div>
+    )
+}    

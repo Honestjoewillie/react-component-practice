@@ -1,3 +1,5 @@
+function AreaChart(props){
+    return (
 <div className="row">
 <div className="col-lg-12">
     <div className="panel panel-default">
@@ -10,3 +12,5 @@
     </div>
 </div>
 </div>
+    )
+}    
