@@ -1,3 +1,5 @@
+function Tasks(props){
+    return (
 <div className="col-lg-3 col-md-6">
 <div className="panel panel-green">
     <div className="panel-heading">
@@ -6,7 +8,7 @@
                 <i className="fa fa-tasks fa-5x"></i>
             </div>
             <div className="col-xs-9 text-right">
-                <div className="huge">12</div>
+                <div className="huge">{props.newTasks}</div>
                 <div>New Tasks!</div>
             </div>
         </div>
@@ -20,3 +22,5 @@
     </a>
 </div>
 </div>
+    )
+}

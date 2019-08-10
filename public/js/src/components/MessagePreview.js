@@ -9,6 +9,9 @@ function MessagePreview(props){
          <div className="media-body">
              <h5 className="media-heading"><strong>{props.messageName}</strong>
              </h5>
+             {/* <DateTime> */}
+                <DateTime date = {props.messageDate}/>
+             {/* <DateTime> */}
              <p>{props.messageMessage}</p>
          </div>
      </div>
